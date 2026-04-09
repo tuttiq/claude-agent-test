@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Claude Projects Dashboard - Tutti Quintella</title>
+  <title>Life Dashboard - Tutti Quintella</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
@@ -18,34 +18,52 @@
             <rect width="28" height="28" rx="8" fill="#D97706"/>
             <path d="M8 14C8 10.6863 10.6863 8 14 8C17.3137 8 20 10.6863 20 14C20 17.3137 17.3137 20 14 20" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
           </svg>
-          <span class="logo-text">Claude Projects</span>
+          <span class="logo-text">Life Dashboard</span>
         </div>
       </div>
       <nav class="sidebar-nav">
-        <a href="#" class="nav-item active" data-filter="all">
+        <a href="#" class="nav-item active" data-view="dashboard">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
-          All Projects
-          <span class="badge">12</span>
+          Dashboard
         </a>
-        <a href="#" class="nav-item" data-filter="product-ops">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
-          Product & Ops
-          <span class="badge">3</span>
+        <a href="#" class="nav-item" data-view="weekly-planner">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Weekly Planner
         </a>
-        <a href="#" class="nav-item" data-filter="community">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          Community & DEI
-          <span class="badge">3</span>
+        <a href="#" class="nav-item" data-view="habits">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          Daily Habits
         </a>
-        <a href="#" class="nav-item" data-filter="webdev">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-          Web Development
-          <span class="badge">3</span>
+
+        <div class="nav-divider"></div>
+        <span class="nav-section-label">Projects</span>
+
+        <a href="#" class="nav-item" data-view="health">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          Health & Fitness
+          <span class="sync-dot sync-ok" title="Synced"></span>
         </a>
-        <a href="#" class="nav-item" data-filter="learning">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-          Learning & Talks
-          <span class="badge">3</span>
+        <a href="#" class="nav-item" data-view="meals">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          Meal Plan & Recipes
+          <span class="sync-dot sync-ok" title="Synced"></span>
+        </a>
+        <a href="#" class="nav-item" data-view="soyjoy">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.5 2A6.5 6.5 0 0 0 3 8.5C3 15 12 22 12 22s9-7 9-13.5A6.5 6.5 0 0 0 14.5 2c-1.74 0-3.41.81-4.5 2.09A6.47 6.47 0 0 0 9.5 2z"/></svg>
+          SoyJoy Lab
+          <span class="sync-dot sync-pending" title="Pending"></span>
+        </a>
+        <a href="#" class="nav-item" data-view="garden">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22V8"/><path d="M5 12H2a10 10 0 0 0 10-10 10 10 0 0 0 10 10h-3"/><path d="M5 20a7 7 0 0 1 14 0"/></svg>
+          Sunnyvale Garden
+          <span class="sync-dot sync-ok" title="Synced"></span>
+        </a>
+
+        <div class="nav-divider"></div>
+
+        <a href="#" class="nav-item" data-view="sync">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          Data Sync & Import
         </a>
       </nav>
       <div class="sidebar-footer">
@@ -53,7 +71,7 @@
           <div class="avatar">TQ</div>
           <div class="user-info">
             <span class="user-name">Tutti Quintella</span>
-            <span class="user-role">Product & Eng Ops</span>
+            <span class="user-role">Life Dashboard</span>
           </div>
         </div>
       </div>
@@ -64,102 +82,464 @@
       <!-- Top Bar -->
       <header class="topbar">
         <div class="topbar-left">
-          <h1 class="page-title">Dashboard</h1>
-          <span class="page-subtitle">Your Claude-powered workspace</span>
+          <h1 class="page-title" id="pageTitle">Dashboard</h1>
+          <span class="page-subtitle" id="pageSubtitle">Week of <span id="weekLabel"></span></span>
         </div>
         <div class="topbar-right">
-          <div class="search-box">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-            <input type="text" placeholder="Search projects..." id="searchInput">
-          </div>
-          <button class="btn-icon" title="Refresh">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
-          </button>
+          <button class="btn-nav" id="prevWeek" title="Previous week">&larr;</button>
+          <button class="btn-nav btn-today" id="todayBtn">Today</button>
+          <button class="btn-nav" id="nextWeek" title="Next week">&rarr;</button>
         </div>
       </header>
 
-      <!-- Stats Row -->
-      <section class="stats-row">
-        <div class="stat-card">
-          <div class="stat-icon" style="background: #FEF3C7; color: #D97706;">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+      <!-- =============== DASHBOARD VIEW =============== -->
+      <div class="view-panel active" id="view-dashboard">
+        <!-- Stats Row -->
+        <section class="stats-row">
+          <div class="stat-card">
+            <div class="stat-icon" style="background: #FEF3C7; color: #D97706;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <div class="stat-info">
+              <span class="stat-value" id="statCalories">--</span>
+              <span class="stat-label">Avg Daily Cal</span>
+            </div>
           </div>
-          <div class="stat-info">
-            <span class="stat-value">12</span>
-            <span class="stat-label">Active Projects</span>
+          <div class="stat-card">
+            <div class="stat-icon" style="background: #DBEAFE; color: #2563EB;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="stat-info">
+              <span class="stat-value" id="statWorkouts">--</span>
+              <span class="stat-label">Workouts This Week</span>
+            </div>
           </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon" style="background: #DBEAFE; color: #2563EB;">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <div class="stat-card">
+            <div class="stat-icon" style="background: #D1FAE5; color: #059669;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg>
+            </div>
+            <div class="stat-info">
+              <span class="stat-value" id="statMeals">--</span>
+              <span class="stat-label">Meals Planned</span>
+            </div>
           </div>
-          <div class="stat-info">
-            <span class="stat-value">847</span>
-            <span class="stat-label">Conversations</span>
+          <div class="stat-card">
+            <div class="stat-icon" style="background: #EDE9FE; color: #7C3AED;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            </div>
+            <div class="stat-info">
+              <span class="stat-value" id="statHabits">--</span>
+              <span class="stat-label">Habit Streak (days)</span>
+            </div>
           </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon" style="background: #D1FAE5; color: #059669;">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-          </div>
-          <div class="stat-info">
-            <span class="stat-value">2.4k</span>
-            <span class="stat-label">Artifacts Created</span>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon" style="background: #EDE9FE; color: #7C3AED;">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          </div>
-          <div class="stat-info">
-            <span class="stat-value">63h</span>
-            <span class="stat-label">Time Saved (est.)</span>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Activity Chart -->
-      <section class="activity-section">
-        <div class="section-header">
-          <h2>Weekly Activity</h2>
-          <div class="chart-legend">
-            <span class="legend-item"><span class="dot" style="background:#D97706"></span> Conversations</span>
-            <span class="legend-item"><span class="dot" style="background:#2563EB"></span> Artifacts</span>
+        <!-- Today's Focus -->
+        <section class="today-focus">
+          <div class="section-header">
+            <h2>Today's Focus &mdash; <span id="todayDateLabel"></span></h2>
+          </div>
+          <div class="focus-grid">
+            <div class="focus-card focus-workout">
+              <div class="focus-header">
+                <span class="focus-icon">&#128170;</span>
+                <h3>Workout</h3>
+              </div>
+              <div class="focus-body" id="todayWorkout">
+                <p class="empty-state">Import data from Health & Fitness project</p>
+              </div>
+            </div>
+            <div class="focus-card focus-meals">
+              <div class="focus-header">
+                <span class="focus-icon">&#127860;</span>
+                <h3>Meals</h3>
+              </div>
+              <div class="focus-body" id="todayMeals">
+                <p class="empty-state">Import data from Meal Plan project</p>
+              </div>
+            </div>
+            <div class="focus-card focus-garden">
+              <div class="focus-header">
+                <span class="focus-icon">&#127793;</span>
+                <h3>Garden</h3>
+              </div>
+              <div class="focus-body" id="todayGarden">
+                <p class="empty-state">Import data from Sunnyvale Garden project</p>
+              </div>
+            </div>
+            <div class="focus-card focus-soyjoy">
+              <div class="focus-header">
+                <span class="focus-icon">&#129372;</span>
+                <h3>SoyJoy Lab</h3>
+              </div>
+              <div class="focus-body" id="todaySoyjoy">
+                <p class="empty-state">Import data from SoyJoy project</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Habit Streak Chart -->
+        <section class="activity-section">
+          <div class="section-header">
+            <h2>Weekly Habit Completion</h2>
+            <div class="chart-legend">
+              <span class="legend-item"><span class="dot" style="background:#D97706"></span> Health</span>
+              <span class="legend-item"><span class="dot" style="background:#059669"></span> Meals</span>
+              <span class="legend-item"><span class="dot" style="background:#2563EB"></span> Workouts</span>
+              <span class="legend-item"><span class="dot" style="background:#7C3AED"></span> Garden</span>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="habitChart"></canvas>
+          </div>
+        </section>
+
+        <!-- Upcoming Harvests + SoyJoy Experiments -->
+        <div class="two-col">
+          <section class="panel-card">
+            <div class="section-header">
+              <h2>Upcoming Harvests</h2>
+            </div>
+            <div id="harvestList" class="item-list">
+              <p class="empty-state">No harvest data yet. Import from Sunnyvale Garden project.</p>
+            </div>
+          </section>
+          <section class="panel-card">
+            <div class="section-header">
+              <h2>SoyJoy Experiments</h2>
+            </div>
+            <div id="experimentList" class="item-list">
+              <p class="empty-state">No experiments yet. Import from SoyJoy project.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- =============== WEEKLY PLANNER VIEW =============== -->
+      <div class="view-panel" id="view-weekly-planner">
+        <div class="week-grid" id="weekGrid">
+          <!-- Generated by JS -->
+        </div>
+      </div>
+
+      <!-- =============== DAILY HABITS VIEW =============== -->
+      <div class="view-panel" id="view-habits">
+        <section class="habits-section">
+          <div class="section-header">
+            <h2>Daily Habit Tracker</h2>
+            <button class="btn-primary" id="addHabitBtn">+ Add Habit</button>
+          </div>
+          <div class="habits-week-grid" id="habitsGrid">
+            <!-- Generated by JS -->
+          </div>
+        </section>
+        <section class="activity-section" style="margin-top:24px;">
+          <div class="section-header">
+            <h2>Completion History (Last 4 Weeks)</h2>
+          </div>
+          <div class="heatmap-container" id="heatmapContainer">
+            <!-- Generated by JS -->
+          </div>
+        </section>
+      </div>
+
+      <!-- =============== HEALTH & FITNESS VIEW =============== -->
+      <div class="view-panel" id="view-health">
+        <section class="project-detail">
+          <div class="project-detail-header">
+            <span class="project-detail-icon">&#128170;</span>
+            <div>
+              <h2>Health & Fitness</h2>
+              <p class="text-muted">Medical labs, Fitbit metrics, hormonal health, supplements, workout plans</p>
+            </div>
+          </div>
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h3>Current Goals</h3>
+              <div id="healthGoals" class="detail-content">
+                <p class="empty-state">Import your calorie/nutrient targets and workout plan</p>
+              </div>
+            </div>
+            <div class="detail-card">
+              <h3>Weekly Workout Plan</h3>
+              <div id="workoutPlan" class="detail-content">
+                <p class="empty-state">No workout plan imported yet</p>
+              </div>
+            </div>
+            <div class="detail-card">
+              <h3>Supplements</h3>
+              <div id="supplementsList" class="detail-content">
+                <p class="empty-state">No supplement data imported yet</p>
+              </div>
+            </div>
+            <div class="detail-card">
+              <h3>Recent Metrics</h3>
+              <div id="healthMetrics" class="detail-content">
+                <p class="empty-state">No Fitbit/lab metrics imported yet</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- =============== MEAL PLAN VIEW =============== -->
+      <div class="view-panel" id="view-meals">
+        <section class="project-detail">
+          <div class="project-detail-header">
+            <span class="project-detail-icon">&#127860;</span>
+            <div>
+              <h2>Meal Plan & Recipes</h2>
+              <p class="text-muted">Weekly meal plan, dietary restrictions, pantry inventory, seasonal ingredients</p>
+            </div>
+          </div>
+          <div id="mealPlanWeek" class="meal-plan-grid">
+            <p class="empty-state">Import your weekly meal plan from the Claude project</p>
+          </div>
+        </section>
+      </div>
+
+      <!-- =============== SOYJOY VIEW =============== -->
+      <div class="view-panel" id="view-soyjoy">
+        <section class="project-detail">
+          <div class="project-detail-header">
+            <span class="project-detail-icon">&#129372;</span>
+            <div>
+              <h2>SoyJoy Lab</h2>
+              <p class="text-muted">Plant-forward functional food product experiments</p>
+            </div>
+          </div>
+          <div class="detail-grid">
+            <div class="detail-card full-width">
+              <h3>Active Experiments</h3>
+              <div id="soyjoyExperiments" class="detail-content">
+                <p class="empty-state">Import experiments from SoyJoy project</p>
+              </div>
+            </div>
+            <div class="detail-card">
+              <h3>Recipes for Meal Plan</h3>
+              <p class="text-muted text-sm">Experiments that will feed into your weekly meals</p>
+              <div id="soyjoyToMealPlan" class="detail-content">
+                <p class="empty-state">No recipes linked yet</p>
+              </div>
+            </div>
+            <div class="detail-card">
+              <h3>Product Line Tracker</h3>
+              <div id="productLine" class="detail-content">
+                <p class="empty-state">No product data imported yet</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- =============== GARDEN VIEW =============== -->
+      <div class="view-panel" id="view-garden">
+        <section class="project-detail">
+          <div class="project-detail-header">
+            <span class="project-detail-icon">&#127793;</span>
+            <div>
+              <h2>Sunnyvale Garden</h2>
+              <p class="text-muted">Homestead vegetable garden planning, crops, and harvest schedule</p>
+            </div>
+          </div>
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h3>Current Crops</h3>
+              <div id="gardenCrops" class="detail-content">
+                <p class="empty-state">Import crop data from Garden project</p>
+              </div>
+            </div>
+            <div class="detail-card">
+              <h3>Harvest Schedule</h3>
+              <p class="text-muted text-sm">Ready for harvest &rarr; synced to Meal Plan</p>
+              <div id="harvestSchedule" class="detail-content">
+                <p class="empty-state">No harvest schedule imported yet</p>
+              </div>
+            </div>
+            <div class="detail-card">
+              <h3>This Week's Garden Tasks</h3>
+              <div id="gardenTasks" class="detail-content">
+                <p class="empty-state">No garden tasks imported yet</p>
+              </div>
+            </div>
+            <div class="detail-card">
+              <h3>Garden Notes</h3>
+              <div id="gardenNotes" class="detail-content">
+                <p class="empty-state">No notes yet</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- =============== DATA SYNC VIEW =============== -->
+      <div class="view-panel" id="view-sync">
+        <section class="sync-section">
+          <div class="section-header">
+            <h2>Data Sync & Import</h2>
+          </div>
+          <p class="text-muted" style="margin-bottom:24px;">
+            Import data exported from your Claude projects as JSON. Each project has a specific schema.
+            You can also set up automated syncing with a sync script.
+          </p>
+
+          <div class="sync-cards">
+            <!-- Health Import -->
+            <div class="sync-card">
+              <div class="sync-card-header">
+                <span>&#128170;</span>
+                <h3>Health & Fitness</h3>
+                <span class="sync-status" id="syncStatusHealth">Not synced</span>
+              </div>
+              <p class="text-muted text-sm">Import calorie goals, workout plan, supplements, and metrics</p>
+              <div class="sync-actions">
+                <label class="btn-secondary">
+                  Import JSON
+                  <input type="file" accept=".json" class="hidden-file" data-project="health">
+                </label>
+                <button class="btn-outline" data-paste="health">Paste JSON</button>
+                <button class="btn-outline" data-sample="health">Load Sample</button>
+              </div>
+              <div class="last-sync" id="lastSyncHealth">Never synced</div>
+            </div>
+
+            <!-- Meals Import -->
+            <div class="sync-card">
+              <div class="sync-card-header">
+                <span>&#127860;</span>
+                <h3>Meal Plan & Recipes</h3>
+                <span class="sync-status" id="syncStatusMeals">Not synced</span>
+              </div>
+              <p class="text-muted text-sm">Import weekly meal plan, recipes, and pantry items</p>
+              <div class="sync-actions">
+                <label class="btn-secondary">
+                  Import JSON
+                  <input type="file" accept=".json" class="hidden-file" data-project="meals">
+                </label>
+                <button class="btn-outline" data-paste="meals">Paste JSON</button>
+                <button class="btn-outline" data-sample="meals">Load Sample</button>
+              </div>
+              <div class="last-sync" id="lastSyncMeals">Never synced</div>
+            </div>
+
+            <!-- SoyJoy Import -->
+            <div class="sync-card">
+              <div class="sync-card-header">
+                <span>&#129372;</span>
+                <h3>SoyJoy Lab</h3>
+                <span class="sync-status" id="syncStatusSoyjoy">Not synced</span>
+              </div>
+              <p class="text-muted text-sm">Import experiments, recipes for meal plan integration</p>
+              <div class="sync-actions">
+                <label class="btn-secondary">
+                  Import JSON
+                  <input type="file" accept=".json" class="hidden-file" data-project="soyjoy">
+                </label>
+                <button class="btn-outline" data-paste="soyjoy">Paste JSON</button>
+                <button class="btn-outline" data-sample="soyjoy">Load Sample</button>
+              </div>
+              <div class="last-sync" id="lastSyncSoyjoy">Never synced</div>
+            </div>
+
+            <!-- Garden Import -->
+            <div class="sync-card">
+              <div class="sync-card-header">
+                <span>&#127793;</span>
+                <h3>Sunnyvale Garden</h3>
+                <span class="sync-status" id="syncStatusGarden">Not synced</span>
+              </div>
+              <p class="text-muted text-sm">Import crops, harvest schedule, and garden tasks</p>
+              <div class="sync-actions">
+                <label class="btn-secondary">
+                  Import JSON
+                  <input type="file" accept=".json" class="hidden-file" data-project="garden">
+                </label>
+                <button class="btn-outline" data-paste="garden">Paste JSON</button>
+                <button class="btn-outline" data-sample="garden">Load Sample</button>
+              </div>
+              <div class="last-sync" id="lastSyncGarden">Never synced</div>
+            </div>
+          </div>
+
+          <!-- Export Section -->
+          <div class="export-section">
+            <div class="section-header" style="margin-top:32px;">
+              <h2>Export & Automation</h2>
+            </div>
+            <div class="export-cards">
+              <div class="export-card">
+                <h3>Export All Data</h3>
+                <p class="text-muted text-sm">Download a full backup of your dashboard data</p>
+                <button class="btn-primary" id="exportAllBtn">Export JSON</button>
+              </div>
+              <div class="export-card">
+                <h3>Automation Setup</h3>
+                <p class="text-muted text-sm">Generate a sync script to automate data flow between Claude projects</p>
+                <button class="btn-primary" id="showAutomationBtn">View Setup Guide</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- JSON Paste Modal -->
+        <div class="modal-overlay" id="pasteModal">
+          <div class="modal">
+            <div class="modal-header">
+              <h3>Paste JSON Data</h3>
+              <button class="modal-close" id="closePasteModal">&times;</button>
+            </div>
+            <p class="text-muted text-sm" id="pasteModalHint"></p>
+            <textarea class="json-textarea" id="pasteTextarea" placeholder='Paste your JSON here...'></textarea>
+            <div class="modal-actions">
+              <button class="btn-outline" id="cancelPasteBtn">Cancel</button>
+              <button class="btn-primary" id="confirmPasteBtn">Import</button>
+            </div>
           </div>
         </div>
-        <div class="chart-container">
-          <canvas id="activityChart"></canvas>
-        </div>
-      </section>
 
-      <!-- Projects Grid -->
-      <section class="projects-section">
-        <div class="section-header">
-          <h2>Projects</h2>
-          <div class="view-toggle">
-            <button class="toggle-btn active" data-view="grid" title="Grid view">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
-            </button>
-            <button class="toggle-btn" data-view="list" title="List view">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
-            </button>
+        <!-- Automation Guide Modal -->
+        <div class="modal-overlay" id="automationModal">
+          <div class="modal modal-lg">
+            <div class="modal-header">
+              <h3>Automation Setup Guide</h3>
+              <button class="modal-close" id="closeAutomationModal">&times;</button>
+            </div>
+            <div class="automation-guide" id="automationGuide">
+              <!-- Populated by JS -->
+            </div>
           </div>
         </div>
-        <div class="projects-grid" id="projectsGrid">
-          <!-- Populated by JS -->
-        </div>
-      </section>
+      </div>
 
-      <!-- Recent Conversations -->
-      <section class="recent-section">
-        <div class="section-header">
-          <h2>Recent Conversations</h2>
-          <a href="#" class="see-all">View all</a>
+      <!-- Add Habit Modal -->
+      <div class="modal-overlay" id="addHabitModal">
+        <div class="modal">
+          <div class="modal-header">
+            <h3>Add New Habit</h3>
+            <button class="modal-close" id="closeAddHabitModal">&times;</button>
+          </div>
+          <div class="form-group">
+            <label>Habit Name</label>
+            <input type="text" id="newHabitName" placeholder="e.g., Take supplements" class="form-input">
+          </div>
+          <div class="form-group">
+            <label>Category</label>
+            <select id="newHabitCategory" class="form-input">
+              <option value="health">Health & Fitness</option>
+              <option value="meals">Meal Plan</option>
+              <option value="soyjoy">SoyJoy Lab</option>
+              <option value="garden">Garden</option>
+              <option value="general">General</option>
+            </select>
+          </div>
+          <div class="modal-actions">
+            <button class="btn-outline" id="cancelAddHabit">Cancel</button>
+            <button class="btn-primary" id="confirmAddHabit">Add Habit</button>
+          </div>
         </div>
-        <div class="conversations-list" id="conversationsList">
-          <!-- Populated by JS -->
-        </div>
-      </section>
+      </div>
+
     </main>
   </div>
 
